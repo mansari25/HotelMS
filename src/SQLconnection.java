@@ -5,7 +5,7 @@ public class SQLconnection {
 		public static Connection dbConnector(){
 			try{
 				Class.forName("org.sqlite.JDBC");
-				Connection conn=DriverManager.getConnection("jdbc:sqlite:/Users/mackansari/Desktop/HMS.sqlite");
+				Connection conn=DriverManager.getConnection("jdbc:sqlite:/Users/mackansari/Documents/Hotel/HMS.sqlite");
 				return conn;
 				
 				
